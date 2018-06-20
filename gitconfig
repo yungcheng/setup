@@ -1,0 +1,33 @@
+[user]
+	name = Vince Chen
+	email = vince.cyc@gmail.com
+	signingkey = A0322B96EB3321F4
+[credential]
+	helper = cache --timeout=86400
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[core]
+	editor = vim
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr %an)%Creset' --abbrev-commit --date=relative
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[push]
+	default = matching
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg

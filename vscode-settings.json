@@ -1,0 +1,39 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "files.exclude": {
+        "**/node_modules/": true,
+        ".DS_Store": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/target": true,
+        "**/benchmarking": true,
+        "**/coverage": true,
+        "**/dist": true
+    },
+    "search.useIgnoreFiles": true,
+    "terminal.integrated.fontFamily": "Meslo LG M DZ for Powerline",
+    "gitlens.keymap": "chorded",
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false,
+    "gitlens.historyExplorer.enabled": true
+}
