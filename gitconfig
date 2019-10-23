@@ -1,7 +1,6 @@
 [user]
 	name = Vince Chen
 	email = vince.cyc@gmail.com
-	signingkey = A0322B96EB3321F4
 [credential]
 	helper = cache --timeout=86400
 [filter "media"]
